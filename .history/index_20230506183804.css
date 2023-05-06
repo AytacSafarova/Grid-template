@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 84px;
+display: grid;
+grid-template-columns: 0.9fr 0.9fr 0.9fr;
+grid-gap:37px
+
+}
+.card{
+height: 200px;
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+h1{
+    color: blue;
+}
